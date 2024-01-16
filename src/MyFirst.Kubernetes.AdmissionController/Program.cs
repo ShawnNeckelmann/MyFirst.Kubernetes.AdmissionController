@@ -25,8 +25,9 @@ app.MapGet("/podlist", () =>
 
         var list = client.CoreV1.ListNamespacedPod("kube-system");
         var items = list.Items.ToList();
+        var names = items.Select(pod => pod.Metadata.Name).ToList();
 
-        return items.Count > 0 ? Results.Ok(items.First()) : Results.NoContent();
+        return items.Count > 0 ? Results.Ok(names) : Results.NoContent();
     })
     .WithName("GetPodList")
     .WithOpenApi();

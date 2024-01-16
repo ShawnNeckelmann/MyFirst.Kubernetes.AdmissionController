@@ -1,6 +1,5 @@
-@MyFirst.Kubernetes.AdmissionController_HostAddress = http://localhost:5041
+@MyFirst.Kubernetes.AdmissionController_HostAddress = https://localhost:7290
 
-GET {{MyFirst.Kubernetes.AdmissionController_HostAddress}}/weatherforecast/
-Accept: application/json
+GET {{MyFirst.Kubernetes.AdmissionController_HostAddress}}/podlist
 
 ###

@@ -1,0 +1,6 @@
+@MyFirst.Kubernetes.AdmissionController_HostAddress = http://localhost:5041
+
+GET {{MyFirst.Kubernetes.AdmissionController_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

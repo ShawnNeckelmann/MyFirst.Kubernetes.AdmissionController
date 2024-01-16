@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirst.Kubernetes.AdmissionController", "MyFirst.Kubernetes.AdmissionController\MyFirst.Kubernetes.AdmissionController.csproj", "{2C494495-3FA2-4DF2-AABD-35A4BA99B111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirst.Kubernetes.AdmissionController.Tests", "MyFirst.Kubernetes.AdmissionController.Tests\MyFirst.Kubernetes.AdmissionController.Tests.csproj", "{27E52561-2877-4B83-853F-3F0EC8B4A41B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C494495-3FA2-4DF2-AABD-35A4BA99B111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C494495-3FA2-4DF2-AABD-35A4BA99B111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C494495-3FA2-4DF2-AABD-35A4BA99B111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C494495-3FA2-4DF2-AABD-35A4BA99B111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E52561-2877-4B83-853F-3F0EC8B4A41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E52561-2877-4B83-853F-3F0EC8B4A41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E52561-2877-4B83-853F-3F0EC8B4A41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E52561-2877-4B83-853F-3F0EC8B4A41B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
